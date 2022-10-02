@@ -1,0 +1,57 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "產品介紹",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "本系統統整了統計全臺 動物醫院、動物收容所、當前位於動物收容所之動物資訊",
+            "size": "lg",
+            "margin": "none",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "流浪動物數據出處",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://data.gov.tw/dataset/85903"
+            }
+          },
+          {
+            "type": "text",
+            "text": "動物醫院數據出處",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://www.afurkid.com/Veterinary/List"
+            }
+          },
+          {
+            "type": "text",
+            "text": "動物收容所數據出處",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://asms.coa.gov.tw/Amlapp/App/PetsMap1.aspx"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
